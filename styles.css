@@ -6,6 +6,10 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+
+
+/* ------------------------------------   NAVBAR    ------------------------------------------------------- */
 .navlogo {
     height: 22px;
 
@@ -37,13 +41,18 @@ ul li {
     display: inline-block;
 }
 
+/* --==-=-=-=-=-=-=-=-==-=-=-=-=-=-=-   Hero Section    --=--=-=-=-====-=-=-=-=-=-=-=-=-=-=-=-=--=-=--=- */
+
 #HeroSection {
     width: 100vw;
-    background-image: url(images/graduation.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/graduation.jpg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat
 }
+
+
+/* -------------------------------------   Explore CCHS    ------------------------------------------- */
 
 #explorecchs {
     height: 400px;
@@ -88,3 +97,102 @@ ul li {
     background-size: cover;
     background-position: center;
 }
+
+/* -=-------------------------------------  CCHS @ a Glance   --------------------------------------- */
+
+
+
+
+
+#glance {
+    height: 400px;
+    width: 100vw;
+    background-color: #10243B
+}
+
+#glanceheader {
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+    color: white;
+}
+
+.glancebox {
+    height: 300px;
+    width: 24.5%;
+    background-color: yellow;
+    display: inline-block;
+}
+
+#money {
+    background-image: url(images/patriots\ plaza.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#graduation {
+    background-image: url(images/college.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#book {
+    background-image: url(images/ccnn.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#teaching {
+    background-image: url(images/ccnn\ live.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* #glance {
+    height: 200px;
+    width: 100vw;
+    text-align: center;
+    padding-top: 45px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#glancesection {
+    display: inline-block;
+    height: 300px;
+    width: 100%;
+}
+
+
+#money {
+    /* list-style-image: url(images/carosel\ money.jpg); */
+    background-image: url(images/carosel\ money.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#graduation {
+    /* list-style-image: url(images/carosel\ graduation.jpg); */
+    background-image: url(images/carosel\ money.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#book {
+    /* list-style-image: url(images/book.jpg); */
+    background-image: url(images/carosel\ money.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#teaching {
+    /* list-style-image: url(images/carosel\ teaching.jpg); */
+    background-image: url(images/carosel\ money.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#glancebox{
+    height: 100px;
+    width: 25%;
+    /* text-align: center; */
+    /* color: white; */
+    /* display: inline-block; */
+} */
