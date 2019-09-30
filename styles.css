@@ -107,14 +107,16 @@ ul li {
 #glance {
     height: 400px;
     width: 100vw;
-    background-color: #10243B
+    background-color: white;
 }
 
 #glanceheader {
     height: 100px;
     width: 100vw;
     text-align: center;
-    color: white;
+    color: #10243B;
+    padding-top: 50px;
+    font-size: 31px;
 }
 
 .glancebox {
@@ -125,25 +127,25 @@ ul li {
 }
 
 #money {
-    background-image: url(images/patriots\ plaza.jpg);
+    background-image: url(images/carosel\ money.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #graduation {
-    background-image: url(images/college.png);
+    background-image: url(images/carosel\ graduation.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #book {
-    background-image: url(images/ccnn.jpg);
+    background-image: url(images/book.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #teaching {
-    background-image: url(images/ccnn\ live.png);
+    background-image: url(images/carosel\ teaching.jpg);
     background-size: cover;
     background-position: center;
 }
