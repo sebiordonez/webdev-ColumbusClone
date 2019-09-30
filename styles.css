@@ -108,6 +108,7 @@ ul li {
     height: 400px;
     width: 100vw;
     background-color: white;
+    display: inline-block;
 }
 
 #glanceheader {
@@ -150,51 +151,60 @@ ul li {
     background-position: center;
 }
 
-/* #glance {
-    height: 200px;
-    width: 100vw;
-    text-align: center;
-    padding-top: 45px;
-    font-size: 30px;
-    font-family: sans-serif;
-}
 
-#glancesection {
-    display: inline-block;
-    height: 300px;
-    width: 100%;
-}
-
-
-#money {
-    /* list-style-image: url(images/carosel\ money.jpg); */
-    background-image: url(images/carosel\ money.jpg);
-    background-position: center;
-    background-size: cover;
-    
-}
-#graduation {
-    /* list-style-image: url(images/carosel\ graduation.jpg); */
-    background-image: url(images/carosel\ money.jpg);
-    background-position: center;
-    background-size: cover;
-}
-#book {
-    /* list-style-image: url(images/book.jpg); */
-    background-image: url(images/carosel\ money.jpg);
-    background-position: center;
-    background-size: cover;
-}
-#teaching {
-    /* list-style-image: url(images/carosel\ teaching.jpg); */
-    background-image: url(images/carosel\ money.jpg);
-    background-position: center;
-    background-size: cover;
 }
 #glancebox{
     height: 100px;
     width: 25%;
-    /* text-align: center; */
-    /* color: white; */
-    /* display: inline-block; */
-} */
+} 
+
+.text{
+    text-align: center;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+    width: 287.69px;
+    margin-left:20px;
+}
+.heading{
+    color: red;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-emphasis: center;
+    margin-left: 20px;
+}
+
+.odot{
+    background-image: url(images/1dot.PNG);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    float: right;
+    margin-right: 8px;
+    margin-top: 10px;
+    width: 11px;
+    height: 11px;
+
+
+}
+.dotbox{
+    margin-right: 47.5%;
+}
+.scoolh{
+    color: #10243B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 65px;
+}
+.logos{
+    display: inline-block;
+    margin: 75px;
+
+
+}
+#schools{
+    text-align: center;
+    border-top: solid goldenrod 1px;
+    width: 100%;
+    background-color: rgba(218, 165, 32, 0.1);
+}
