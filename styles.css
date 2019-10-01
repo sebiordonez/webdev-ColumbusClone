@@ -163,7 +163,8 @@ ul li {
     color: grey;
     font-family: 'Open Sans', sans-serif;
     width: 287.69px;
-    margin-left:20px;
+    margin-left:50px;
+    
 }
 .heading{
     color: red;
@@ -173,23 +174,7 @@ ul li {
     margin-left: 20px;
 }
 
-.odot{
-    background-image: url(images/1dot.PNG);
-    background-position: center;
-    background-size: cover;
-    display: inline-block;
-    float: right;
-    margin-right: 8px;
-    margin-top: 10px;
-    width: 11px;
-    height: 11px;
-
-
-}
-.dotbox{
-    margin-right: 47.5%;
-}
-.scoolh{
+.school{
     color: #10243B;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -206,5 +191,31 @@ ul li {
     text-align: center;
     border-top: solid goldenrod 1px;
     width: 100%;
-    background-color: rgba(218, 165, 32, 0.1);
+    background-color: white;
+}
+
+#courses {
+    background-color: #10243B;
+    width: 75%;
+    height: 20vh;
+    margin-left: 200px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 65px;
+    font-size: 30px;
+}
+
+.ap {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding-top: 55px;
+    font-size: 30px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+.footernav{
+    background-color: #10243B;
+    width: 100%;
+    height: 50px;
 }
