@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 
@@ -66,10 +67,13 @@ ul li {
     text-align: center;
     color: white;
 }
+#exploresection{
+    width: 100%;
+}
 
 .explorebox {
     height: 300px;
-    width: 24.5%;
+    width: 24.7%;
     background-color: yellow;
     display: inline-block;
 }
@@ -202,7 +206,7 @@ ul li {
     height: 20vh;
     margin-left: 200px;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 220px;
     margin-bottom: 65px;
     font-size: 30px;
 }
@@ -220,6 +224,7 @@ ul li {
     background-color: #10243B;
     width: 100vw;
     height: 50px;
+    color: #a3dde8;
 }
 
 #footer{
@@ -232,19 +237,21 @@ ul li {
 #footernav{
     width: 100vw;
     height: 60px;
+    color: #a3dde8;
     
 
 }
 #leftfoot a, #rightfoot a {
     text-decoration: none;
     font-size: 1.2em;
-    color: white;
+    color: #a3dde8;
 }
 
 #rightfoot{
     float: right;
     padding-bottom: 30px;
     padding-right: 20px;
+    display: inline-block;
 }
 #rightfoot:nth-child(1){
     padding-right: 75px;
@@ -276,8 +283,12 @@ ul li {
 }
 .columbuseal{
     float: right;
-    display: inline-block;
 }
 #leftfoot{
     padding-left: 50px;
+    margin-top: 10px;
+    display: inline-block;
+}
+a{
+    margin-right: 9px;
 }
